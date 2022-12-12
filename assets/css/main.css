@@ -2566,13 +2566,13 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
-		object-fit: contain;
+		object-fit: fit-content;
 	}
 
 		.image img {
 			border-radius: 0.25em;
 			display: block;
-			object-fit: contain;
+			object-fit: fit-content;
 		}
 
 		.image.left, .image.right {
