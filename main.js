@@ -53,29 +53,34 @@
   var experience = [
     {
       role: "Junior Web Developer", co: "HONEST DIGITAL", at: "Honest Digital",
-      dates: "Mar 2024 – Present · Remote",
+      dates: "Mar 2024 – Jun 2026 · Remote",
       bullets: [
-        "Reduced 301/404 error resolution time by ~30% across 30+ client properties by identifying a systemic gap in redirect workflows and engineering a standardized debugging process adopted team-wide.",
-        "Built and standardized a reusable library of HTML/CSS modules and page templates deployed across the entire client base, enforcing UI consistency and cutting duplicate build time on new sites.",
-        "Improved cross-browser compatibility and QA coverage for 30+ production sites using Chrome DevTools to reproduce, isolate, and resolve failures before deployment.",
-        "Made deliberate layout and design-hierarchy decisions across distinct page types, matching structure to each page's goal for readability, conversion, and performance.",
-        "Collaborated with SEO and Content teams to translate campaign objectives into technical implementations across multiple concurrent client accounts."
+        "Built and maintained 30+ live client properties across 7+ CMS platforms including Adobe Experience Manager, WordPress, Ansira, DealerInspire, DealerOn, Dealer.com, and Apollo, working inside established component systems and brand standards.",
+        "Traced a class of silently failing redirects across the client base back to broken redirect chains, loops, and incorrect slugs. Uploads reported success, nothing errored, and no alert existed, so the only signal was organic traffic dropping weeks later. Wrote the standardized procedure and ran the trainings; bulk redirects took half the time afterward.",
+        "Executed technical SEO across the portfolio: schema markup and JSON-LD, canonical tags, metadata, XML sitemaps, robots.txt and crawler directives, redirect strategy, and internal linking.",
+        "Wrote custom modules and page templates in HTML, CSS, and JavaScript when a platform did not provide what a client needed, including a service-location map module rendering locations as linked cards and map pins, and contributed them to a shared library the whole client base drew from.",
+        "Ran pre-release QA across devices, browsers, and screen sizes, reproducing and resolving defects that front-line reporting could not diagnose.",
+        "Served as the named technical point of contact on client accounts running in parallel, including one where I was authorized to act directly on all web and technical matters.",
+        "Applied WCAG accessibility standards and FTC required advertising disclosures on regulated content, and co-authored three SOPs adopted department-wide."
       ]
     },
     {
       role: "AI Testing Engineer", co: "SCALE.AI", at: "Scale.ai",
-      dates: "Aug 2023 – Dec 2023 · Remote",
+      dates: "Aug 2023 – Mar 2024 · Remote",
       bullets: [
-        "Improved LLM-generated JavaScript test accuracy by 40%+ against structured rubric scores by authoring complex Playwright-style automation scenarios and evaluating edge-case handling across hundreds of model outputs.",
-        "Reduced recurring model failure patterns by synthesizing quality trends across 500+ responses and building a repeatable feedback framework that functioned as a technical QA pipeline, influencing model retraining cycles.",
-        "Designed algorithm and system-design scenarios targeting DOM manipulation, async behavior, and CSS rendering edge cases, accelerating benchmark coverage of real-world front-end tasks."
+        "Evaluated model-generated code across JavaScript, Python, Java and C++ against structured rubric criteria over hundreds of cases, improving measured accuracy by 40%+ through systematic edge-case analysis.",
+        "Synthesized failure patterns across 500+ documented cases into a repeatable feedback framework used to correct model behavior upstream rather than case by case.",
+        "Designed evaluation scenarios targeting DOM manipulation, async behavior, and CSS rendering edge cases, accelerating benchmark coverage of real-world front-end tasks."
       ]
     },
     {
       role: "Director of Warehouse Operations", co: "SNAG DELIVERY", at: "Snag Delivery",
       dates: "Dec 2020 – Dec 2022 · Santa Barbara, CA",
       bullets: [
-        "Redesigned end-to-end operational procedures and led cross-functional coordination, cutting order-to-delivery time by 16% and increasing customer satisfaction scores by 45%."
+        "Joined as one of the company's first drivers and was promoted to Director of Warehouse Operations within two months.",
+        "Hired 20 to 25 associates, scheduled and assigned peak shift crews, and owned coaching, performance conversations, and daily throughput targets.",
+        "Rebuilt the order-to-delivery workflow after tracing a routing defect in the dispatch software, cutting order-to-delivery time by 16% and running the same volume with fewer people on shift.",
+        "Led the expansion into a regulated product category, building the operational and compliance controls the new line required."
       ]
     }
   ];
